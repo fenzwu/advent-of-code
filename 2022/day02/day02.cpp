@@ -4,7 +4,6 @@
 #include <string>
 #include <fstream>
 #include <iostream>
-#include <unordered_map>
 
 int part1(std::vector<std::pair<char, char>> lines)
 {
@@ -53,7 +52,7 @@ int main(int argc, char *argv[])
             lines.push_back(std::make_pair(line[0], line[2]));
         }
         std::cout << "Solution for part1: " << part1(lines) << std::endl;
-        std::cout << "Solution for part1: " << part2(lines) << std::endl;
+        std::cout << "Solution for part2: " << part2(lines) << std::endl;
     }
     else
     {
